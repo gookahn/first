@@ -1,0 +1,151 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: normal;
+} */
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+.header {
+background: rgba(255, 113, 67, 0.27);
+padding: 38px 0 48px;
+}
+
+.conteiner {
+    
+    max-width: 1070px;
+    margin: 0 auto;
+}
+.header_flex{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 105px auto 85px;
+
+}
+.nav_li {
+    display: inline-block;
+    
+}
+.nav_li:not(:first-of-type) {
+margin-left: 49px;
+}
+
+.nav_link {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: -0.468947px;
+
+    color: #696871;
+    text-decoration: none;
+}
+.nav_link:hover{
+    color: black;
+    transition: 320ms;
+}
+
+.button {
+    width: 212px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button_orange {
+    background: #FF7143;
+}
+.button_orange:hover{
+    background: #f8a78b;
+    transition: 510ms;
+}
+.about_title {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 77px;
+    /* or 96% */
+
+    letter-spacing: -2.50105px;
+
+    color: #19191B;
+    max-width: 467px;
+    margin-bottom: 30px;
+
+}
+.about_text {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    letter-spacing: -0.625263px;
+
+    color: #696871;
+    max-width: 410px; 
+    margin-bottom: 50px;
+}
+.button_violet {
+    background: #5454D4;
+}
+.button_transparent {
+    background: none;
+    color: #5454D4;
+    border: 1px solid #5454D4;
+    border-radius: 10px;
+    margin-left: 35px;
+}
+.button_violet:hover {
+    background: #131355;
+    transition: 500ms;
+}
+.button_transparent:hover {
+    background: #e1e1e6;
+    transition: 500ms;
+}
+/* Footer*/
+.footer {
+    height: 145px;
+    padding: 53px 0 53px;
+    background: rgba(255, 113, 67, 0.27);
+}
+.footer_li {
+    display: inline-block;
+}
+.footer_li:not(:first-of-type) {
+    margin-left: 35px;
+}
+.footer_a {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+    text-decoration: none;
+}
+.footer_a:hover {
+    color: black;
+    transition: 320ms;
+}
+.footer_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
